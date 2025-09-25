@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #a89393;
+  border-bottom: 1px solid #eee;
+}
+header .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 50px;
+  background: #fff;
+}
+.hero .intro h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.hero .intro h1 span {
+  color: #000;
+}
+.hero .intro h3 {
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #555;
+}
+.hero .btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #0066ff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.hero .profile-pic img {
+  width: 180px;
+  border-radius: 50%;
+  border: 3px solid #eee;
+}
+
+/* About Section */
+.about {
+  padding: 60px 50px;
+  text-align: left;
+  width: 50%;
+}
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Portfolio Section */
+.portfolio {
+  padding: 60px 50px;
+  text-align: left;
+}
+.portfolio h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 20px;
+}
+.card {
+  background-color: gray;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  text-align: center;
+}
+.card img {
+  width: 80px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  padding: 60px 50px;
+  background: #fff;
+}
+.contact h2 {
+  font-size: 28px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f1f1f1;
+  margin-top: 30px;
+}
+.a {
+    margin-left: 60px;
+}
+.home:hover {
+    background-color: darkblue;
+    color: yellow;
+    font-weight: bold;
+}
